@@ -1,0 +1,2 @@
+jq -n --rawfile h game.html '{files:{"index.html":$h}}' \
+| curl -s https://antics.gg/api/deploy -H 'content-type: application/json' -d @-
