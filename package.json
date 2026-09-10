@@ -2,6 +2,6 @@
   "name": "death-arrows",
   "version": "1.0.0",
   "private": true,
-  "description": "Physics ball arena with lethal arrow volleys — local bots + zero-dependency multiplayer server.",
+  "description": "Physics ball deathmatch with charged arrows, bumpers and rotating maps.",
   "scripts": { "start": "node server.js" }
 }
